@@ -20,7 +20,7 @@ async function main() {
       bybitUnified: () => ds.bybit?.getV5AccountWalletBalance(), // Bybit UNIFIED
     };
 
-    const result = await client.run(params, { projectName: "unitas" });
+    const result = await client.run(params, { projectName: "xaut" });
     // console.log("result", JSON.stringify(result));
     console.log('proof fixture(json):', JSON.parse(result?.proof_fixture ?? "{}"));
   } catch (err: any) {

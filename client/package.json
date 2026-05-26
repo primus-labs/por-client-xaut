@@ -1,8 +1,8 @@
 {
-  "name": "por-client-unitas",
-  "version": "0.1.8",
+  "name": "por-client-xaut",
+  "version": "0.1.0",
   "author": "Primus Labs <dev@primuslabs.org>",
-  "description": "Primus PoR client for Unitas",
+  "description": "Primus PoR client for XAUt",
   "license": "ISC",
   "type": "module",
   "main": "index.js",
